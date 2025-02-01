@@ -1,7 +1,7 @@
 import { GameSymbol } from './game-symbol'
 import styles from './game.module.css'
 
-function GameInfo({ isDraw, currentStep, winnerSymbol }) {
+export function GameInfo({ isDraw, currentStep, winnerSymbol }) {
 
     if (isDraw) {
         return (<div className={styles['game-info']}>Ничья</div>)

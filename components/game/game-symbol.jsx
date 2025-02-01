@@ -1,6 +1,7 @@
 import { SYMBOL_O, SYMBOL_X } from "./constants";
+import styles from './game.module.css'
 
-function GameSymbol({ symbol }) {
+export function GameSymbol({ symbol }) {
     const getSymbolClassName = (symbol) => {
         if (symbol == SYMBOL_X) return styles['symbol--x'];
         if (symbol == SYMBOL_O) return styles['symbol--o'];

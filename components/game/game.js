@@ -22,7 +22,7 @@ export function Game() {
     }
 
     return (
-        <div className={styles['game']}>
+        <div className="flex flex-col items-center w-40 mt-auto mx-auto my-24 border border-black p-5">
 
             <GameInfo
                 isDraw={isDraw}
@@ -41,7 +41,7 @@ export function Game() {
                 ))}
 
             </div>
-            <button type="reset" className={styles['reset']} onClick={handleResetClick}>Сбросить</button>
+            <button type="reset" className="cursor-pointer mt-2.5 bg-transparent border border-gray-400 py-1 px-3 rounded" onClick={handleResetClick}>Сбросить</button>
         </div>
 
     )

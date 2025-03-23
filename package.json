@@ -5,12 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "clsx": "^2.1.1",
     "next": "^15.1.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
@@ -18,7 +21,10 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "eslint": "9.23.0",
+    "eslint-config-next": "15.2.3",
     "postcss": "^8.5.2",
+    "prettier": "3.5.3",
     "tailwindcss": "^3.4.17"
   }
 }

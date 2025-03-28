@@ -1,8 +1,8 @@
-import logoSrc from "./logo.svg";
-import Image from "next/image";
-import { Profile } from "../profile";
-import { ArrowDownIcon } from "./icons/arrow-down-icon";
-import { UiButton } from "../uikit/ui-button";
+import logoSrc from './logo.svg';
+import Image from 'next/image';
+import { Profile } from '../profile';
+import { ArrowDownIcon } from './icons/arrow-down-icon';
+import { UiButton } from '../uikit/ui-button';
 
 export function Header() {
   return (
@@ -11,7 +11,7 @@ export function Header() {
       <div className="w-px h-8 bg-slate-200 mx-6"></div>
       <UiButton variant="primary" size="lg" children="Играть" />
       <button className="ml-auto flex items-center gap-2 text-teal-600">
-        <Profile />
+        <Profile name="Paromovegv" rating="1200" />
         <ArrowDownIcon />
       </button>
     </header>
